@@ -1,0 +1,120 @@
+<div class="container">
+        <div class="row">
+                <div class="col-md-4 mdb-color darken-4 p-1">
+                        <img  (click)="basicModal.show()"(click)="imagetomodel(frist,'Horse')" #frist src="https://i.ibb.co/6FddtLJ/Whats-App-Image-2019-09-25-at-12-47-35.jpg"
+                                class="myimg img-fluid " alt="Responsive image">
+
+                </div>
+                <div class="col-md-4 mdb-color darken-4 p-1">
+                        <img (click)="basicModal.show()"(click)="imagetomodel(second,'anchor')" #second src="https://i.ibb.co/0Cdr34M/Whats-App-Image-2019-09-25-at-12-47-42-1.jpg"
+                                class="myimg img-fluid " alt="Responsive image2">
+
+                </div>
+                <div class="col-md-4 mdb-color darken-4 p-1">
+                        <img (click)="basicModal.show()"(click)="imagetomodel(third,'shining star')" #third  src="https://i.ibb.co/D4tx0VT/Whats-App-Image-2019-09-25-at-12-47-43.jpg"
+                                class="myimg img-fluid " alt="Responsive image3">
+
+                </div>
+        </div>
+</div>
+<div class="container">
+        <div class="row">
+
+                <div class="col-md-12">
+
+                        <!-- <button type="button" mdbBtn color="primary" class="relative waves-light"
+                                (click)="basicModal.show()" mdbWavesEffect>Launch demo modal</button> -->
+
+                        <div mdbModal #basicModal="mdbModal" class="modal fade" tabindex="-1" role="dialog"
+                                aria-labelledby="myBasicModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                                <div class="modal-header">
+                                                        <button type="button" class="close pull-right"
+                                                                aria-label="Close" (click)="basicModal.hide()">
+                                                                <span aria-hidden="true">×</span>
+                                                        </button>
+                                                        <h4 class="modal-title w-100" id="myModalLabel">{{modeltitle}}</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                        
+                                                        <img [src]="modelimg"
+                                                        class="mymodelimg img-fluid w-100 " alt="Responsive image3">
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                        <button type="button" mdbBtn color="secondary"
+                                                                class="waves-light" aria-label="Close"
+                                                                (click)="basicModal.hide()"
+                                                                mdbWavesEffect>Close</button>
+                                                        <!-- <button type="button" mdbBtn color="primary"
+                                                                class="relative waves-light" mdbWavesEffect>Save
+                                                                changes</button> -->
+                                                </div>
+                                        </div> 
+                                </div>
+                        </div>
+
+                </div>
+        </div>
+</div>
+
+<div class="container">
+        <div class="row">
+                <div class="col-md-4 mdb-color darken-4 p-1">
+                        <img  (click)="basicModal.show()"(click)="imagetomodel(four,'crow trees')" #four src="https://i.ibb.co/FgKDn5c/Whats-App-Image-2019-09-25-at-12-47-41-1.jpg"
+                                class="myimg img-fluid " alt="Responsive image">
+
+                </div>
+                <div class="col-md-4 mdb-color darken-4 p-1">
+                        <img (click)="basicModal.show()"(click)="imagetomodel(five,'beach')" #five src="https://i.ibb.co/JpVKLZz/Whats-App-Image-2019-09-25-at-12-47-43-1.jpg"
+                                class="myimg img-fluid " alt="Responsive image2">
+
+                </div>
+                <div class="col-md-4 mdb-color darken-4 p-1">
+                        <img (click)="basicModal.show()"(click)="imagetomodel(six,'om')" #six  src="https://i.ibb.co/j83WHJL/Whats-App-Image-2019-09-25-at-12-47-47.jpg"
+                                class="myimg img-fluid " alt="Responsive image3">
+
+                </div>
+        </div>
+</div>
+
+<div class="container">
+        <div class="row">
+                <div class="col-md-4 mdb-color darken-4 p-1">
+                        <img  (click)="basicModal.show()"(click)="imagetomodel(seven,'frequency')" #seven src="https://i.ibb.co/RN3Y6Cy/Whats-App-Image-2019-09-25-at-12-32-22.jpg"
+                                class="myimg img-fluid " alt="Responsive image">
+
+                </div>
+                <div class="col-md-4 mdb-color darken-4 p-0 p-1">
+                        <img (click)="basicModal.show()"(click)="imagetomodel(eight,'I am Buddhist')" #eight src="https://i.ibb.co/njMYDBv/Whats-App-Image-2019-09-25-at-12-47-38.jpg"
+                                class="myimg img-fluid " alt="Responsive image2">
+
+                </div>
+                <div class="col-md-4 mdb-color darken-4 p-1">
+                        <img (click)="basicModal.show()"(click)="imagetomodel(nine,'Silver fern')" #nine  src="https://i.ibb.co/txVg9GH/Whats-App-Image-2019-09-25-at-12-47-41.jpg"
+                                class="myimg img-fluid " alt="Responsive image3">
+
+                </div>
+        </div>
+</div>
+
+<div class="container">
+        <div class="row">
+                <div class="col-md-4 mdb-color darken-4 p-1">
+                        <img  (click)="basicModal.show()"(click)="imagetomodel(ten,'my heart')" #ten src="https://i.ibb.co/TK6d4vM/Whats-App-Image-2019-09-25-at-12-47-36.jpg"
+                                class="myimg img-fluid " alt="Responsive image">
+
+                </div>
+                <div class="col-md-4 mdb-color darken-4 p-0 p-1">
+                        <img (click)="basicModal.show()"(click)="imagetomodel(elenven,'NDL')" #elenven src="https://i.ibb.co/jJ90CPZ/Whats-App-Image-2019-09-25-at-12-47-42.jpg"
+                                class="myimg img-fluid " alt="Responsive image2">
+
+                </div>
+                <div class="col-md-4 mdb-color darken-4 p-1">
+                        <img (click)="basicModal.show()"(click)="imagetomodel(twele,'Compasses')" #twele  src="https://i.ibb.co/chjJQtJ/Whats-App-Image-2019-09-25-at-12-47-45.jpg"
+                                class="myimg img-fluid " alt="Responsive image3">
+
+                </div>
+        </div>
+</div>
